@@ -125,6 +125,7 @@ Helper
 creating vms with python and libvirt 
  - http://www.thegeekstuff.com/2014/10/linux-kvm-create-guest-vm/ 
  - http://www.libvirt.org/html/index.html
+<<<<<<< .merge_file_v2fYgP
  - http://stackoverflow.com/questions/12251881/kvm-api-to-start-virtual-machine
 REST api flask 
  - https://flask-restful.readthedocs.org/en/0.3.2/quickstart.html#a-minimal-api
@@ -151,7 +152,22 @@ MAAS
  - http://askubuntu.com/questions/359201/step-by-step-install-of-maas-and-juju
 OpenStack python API
  - http://docs.openstack.org/user-guide/content/sdk_compute_apis.html
+=======
+REST api flask 
+ - https://flask-restful.readthedocs.org/en/0.3.2/quickstart.html#a-minimal-api
+>>>>>>> .merge_file_vuw0BI
 
+Load balancer
+ - https://serversforhackers.com/so-you-got-yourself-a-loadbalancer
+ - https://serversforhackers.com/using-nginx-as-a-load-balancer
+Create proxy with python
+ - https://code.google.com/p/python-proxy/source/browse/trunk/PythonProxy.py
+ - With Twisted http://stackoverflow.com/questions/9465236/python-twisted-proxy-and-modifying-content
+Create proxy with C++
+ - https://github.com/facebook/proxygen
+Vanish pour faire proxy + HAProxy
+ - http://varnish-cache.org/
+ 
 Developpement Process
 =============================
 Python 
@@ -184,6 +200,7 @@ PHP/Laravel
 
 
 
+<<<<<<< .merge_file_v2fYgP
 There will be C# for returning a container status
 There will be a container architecture to provie scalable machiines depending on pricing of the user
 There will be mongoDB and node.js to have real time return from server statuses
@@ -196,6 +213,8 @@ There will be an OpenStack cloud service
 All other users from website may access their server with an ssh key, and will be able to Create and boot VM's based on the OpenStack API
 
 
+=======
+>>>>>>> .merge_file_vuw0BI
 
 deploy.App:#Class pour géréer un serveur d'application
 	deployApp # deployer application
@@ -212,5 +231,9 @@ deploy.Db:#Class pour deployer & gérer un serveur de base de données
 	destroyDb # detruit une db sur le un sgbd pour une appli
 	getSgbd # Retourne le sgbd utilisé pour la connection
 	connect # connect le sgbd
+<<<<<<< .merge_file_v2fYgP
 	dumpDb # dump la database de l'appli
 
+=======
+	dumpDb # dump la database de l'appli
+>>>>>>> .merge_file_vuw0BI
